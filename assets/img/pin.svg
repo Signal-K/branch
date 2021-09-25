@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="17px" viewBox="0 0 10 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 9.99994118 0 9.99994118 16.7068379 0 16.7068379"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-X-Copy-101" transform="translate(-467.000000, -431.000000)">
+            <g id="Group-7" transform="translate(467.000000, 430.000000)">
+                <g id="Page-1" transform="translate(0.000000, 1.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M4.99994118,7.08483793 C3.83523529,7.08483793 2.89052941,6.14397586 2.89052941,4.9827 C2.89052941,3.82201034 3.83523529,2.88056207 4.99994118,2.88056207 C6.16523529,2.88056207 7.10935294,3.82201034 7.10935294,4.9827 C7.10935294,6.14397586 6.16523529,7.08483793 4.99994118,7.08483793 M4.99994118,-5.86206897e-05 C2.23876471,-5.86206897e-05 -5.88235294e-05,2.23104483 -5.88235294e-05,4.9827 C-5.88235294e-05,5.8667 0.231117647,6.69735517 0.636411765,7.41721724 L0.637,7.41076897 L4.99994118,16.7068379 L9.357,7.42718276 L9.357,7.42894138 C9.76641176,6.70614828 9.99994118,5.87197586 9.99994118,4.9827 C9.99994118,2.23104483 7.76170588,-5.86206897e-05 4.99994118,-5.86206897e-05" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

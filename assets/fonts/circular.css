@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "CircularBook";
+  src: url("Circular-Book.eot");
+  src: url("Circular-Bookd41d.eot?#iefix") format("embedded-opentype"),
+    url("Circular-Book.html") format("woff2"),
+    url("Circular-Book.woff") format("woff"),
+    url("Circular-Book.ttf") format("truetype"),
+    url("Circular-Book.svg#Circular-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularBlack";
+  src: url("Circular-Black.eot");
+  src: url("Circular-Blackd41d.eot?#iefix") format("embedded-opentype"),
+    url("Circular-Black.html") format("woff2"),
+    url("Circular-Black.woff") format("woff"),
+    url("Circular-Black.ttf") format("truetype"),
+    url("Circular-Black-2.html#Circular-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
