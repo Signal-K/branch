@@ -30,6 +30,9 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Memberstack --> 
+    <script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="364dc741601f8ed38c797805d5e24ef4"> </script> 
+
 </head>
 
 <body>
@@ -98,7 +101,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="http://dev.to/gizmotronn"><!--✍🏻--> Press Releases</a>
-                    </li><!--
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/ms/login" data-ms-content="!members">🔑 Login</a>
+                    </li>
+                    <!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Works</a>
@@ -113,12 +120,13 @@
                     </li>-->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
-                            aria-haspopup="true" aria-expanded="false">⛓ Models</a> <!--Remove dropdown arrow-->
+                            aria-haspopup="true" aria-expanded="false" data-ms-content="members">⛓ Models</a> <!--Remove dropdown arrow-->
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#ms-login">🔑 Login</a>
                             <a class="dropdown-item" href="https://3.basecamp.com/5181697/projects">⛺️ Basecamp</a>
                             <a class="dropdown-item" href="#">📑 Documentation</a> <!--Put jekyll in here (this repo underneath `docs' folder) -->
                             <a class="dropdown-item" href="keybase://chat/signalkinetics#general/41">💬 Keybase</a>
+                            <a class="dropdown-item" href="#/ms/profile">👩🏻‍🚀 Profile</a>
                             <a class="dropdown-item" href="https://github.com/signal-k">🙀 Github</a>
                             <a class="dropdown-item" href="http://glitch.com/@signal-k">👾 Glitch</a>
                             <a class="dropdown-item" href="https://id.unity.com/organizations?_ga=2.164008951.993223165.1632411677-1892445938.1631799282">🧱 Unity</a>
