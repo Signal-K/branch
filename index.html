@@ -7,8 +7,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Vie onepage themeforest" />
-    <meta name="description" content="Vie - Onepage Multi-Purpose HTML5 Template" />
+    <meta name="keywords" content="Signal Kinetics - Open Source Scientific Development" />
+    <meta name="description" content="Signal Kinetics - Open Source Scientific Development" />
     <meta name="author" content="" />
 
     <!-- Title  -->
@@ -29,6 +29,9 @@
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Memberstack --> 
+    <script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="364dc741601f8ed38c797805d5e24ef4"> </script> 
 
 </head>
 
@@ -90,15 +93,19 @@
                 <span class="icon-bar"><i class="fas fa-bars"></i></span>
             </button>
 
-            <!-- navbar links -->
+            <!-- navbar links (TEMPORARILY HIDING THEM TO KEEP THINGS CLEAN)
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html"><!--🏡--> Home</a>
+                        <a class="nav-link" href="index.html"><!--🏡 Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://dev.to/gizmotronn"><!--✍🏻--> Press Releases</a>
-                    </li><!--
+                        <a class="nav-link" href="http://dev.to/gizmotronn"><!--✍🏻 Press Releases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/ms/login" data-ms-content="!members">🔑 Login</a>
+                    </li>
+                    <!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Works</a>
@@ -113,15 +120,17 @@
                     </li>-->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
-                            aria-haspopup="true" aria-expanded="false">⛓ Models</a> <!--Remove dropdown arrow-->
+                            aria-haspopup="true" aria-expanded="false" data-ms-content="members">⛓ Models</a> <!--Remove dropdown arrow-->
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#ms-login">🔑 Login</a>
                             <a class="dropdown-item" href="https://3.basecamp.com/5181697/projects">⛺️ Basecamp</a>
                             <a class="dropdown-item" href="#">📑 Documentation</a> <!--Put jekyll in here (this repo underneath `docs' folder) -->
                             <a class="dropdown-item" href="keybase://chat/signalkinetics#general/41">💬 Keybase</a>
+                            <a class="dropdown-item" href="#/ms/profile">👩🏻‍🚀 Profile</a>
                             <a class="dropdown-item" href="https://github.com/signal-k">🙀 Github</a>
                             <a class="dropdown-item" href="http://glitch.com/@signal-k">👾 Glitch</a>
                             <a class="dropdown-item" href="https://id.unity.com/organizations?_ga=2.164008951.993223165.1632411677-1892445938.1631799282">🧱 Unity</a>
+                            <a class="dropdown-item" href="http://sk.super.site/basic/basic">🏡 Treehouse</a> <!--Memberstack login modal SHOULD be redirecting to this after we fix the domain issue with Super.so-->
                         </div>
                     </li>
                     <!--<li class="nav-item">
@@ -162,7 +171,83 @@
 
     <!-- ==================== End Slider ==================== -->
 
+<!-- ==================== Start Works ==================== -->
 
+<section class="work-carousel2 metro section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10">
+                <div class="sec-head">
+                    <h6 class="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
+                    <h3 class="wow color-font">Take a look at what <br> we're working on</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 no-padding">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <div class="img">
+                                    <span class="imgio">
+                                        <div class="wow cimgio" data-delay="300"></div><img
+                                            src="https://miro.medium.com/max/1400/1*TNYFJ7II6zzX56TmafN32Q.jpeg" alt="">
+                                    </span>
+                                </div>
+                                <div class="cont">
+                                    <h6><a href="project-details2.html">Citizen Science</a></h6>
+                                    <h4><a href="project-details2.html">Data visualisation in games</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <div class="img">
+                                    <span class="imgio">
+                                        <div class="wow cimgio" data-delay="500"></div><img
+                                            src="img/portfolio/1_nEVZyvQJNi_YJDK4QfFY5w.png" alt="">
+                                    </span>
+                                </div>
+                                <div class="cont">
+                                    <h6><a href="project-details2.html">Unity & Game Development</a></h6>
+                                    <h4><a href="project-details2.html">Star Sailors</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <div class="img">
+                                    <span class="imgio">
+                                        <div class="wow cimgio" data-delay="700"></div><img
+                                            src="https://images.hdqwalls.com/download/owl-minimal-dark-4k-wd-2560x1440.jpg" alt="">
+                                    </span>
+                                </div>
+                                <div class="cont">
+                                    <h6><a href="https://github.com/signal-k">Our Github</a></h6>
+                                    <h4><a href="https://github.com/signal-k">Click me!!</a></h4>
+                                </div>
+                            </div>
+                        </div><!--Add more!!!-->
+                    </div>
+
+                    <!-- slider setting -->
+                    <div class="swiper-button-next swiper-nav-ctrl next-ctrl">
+                        <i class="ion-ios-arrow-right"></i>
+                    </div>
+                    <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl">
+                        <i class="ion-ios-arrow-left"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== End Works ==================== -->
 
     <!-- ==================== Start About agency ==================== -->
 
@@ -172,26 +257,57 @@
                 <div class="col-lg-5 valign md-mb50">
                     <div class="mb-50">
                         <h6 class="fw-300 text-u ls10 mb-10">Signal-K</h6>
-                        <h3 class="fw-600 text-u ls1 mb-30 color-font">Constantly Innovating</h3>
+                        <h3 class="fw-600 text-u ls1 mb-30 color-font" href="https://sk.super.site/#/ms/login">Constantly Innovating</h3>
                         <p>Hi there! We're Signal, a collection of open-source developers. We're pushing the boundaries of web and game development to their absolute limit.</p>
-                        <a href="#0" class="butn dark curve mt-30">
+                        <!--<a href="#0" class="butn dark curve mt-30">
                             <span>Read More</span>
-                        </a>
+                        </a>-->
                     </div>
                 </div>
                 <div class="col-lg-7 img">
-                    <img src="https://scontent.fper5-1.fna.fbcdn.net/v/t1.6435-9/241485881_1459273141126401_4841469463647583747_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=wfQsdWOJhCIAX_y00Bz&_nc_ht=scontent.fper5-1.fna&oh=cd46f70c60ada54c51b94f26206f4371&oe=6175E8B7" alt="">
+                    <img src="img/Liam.png" alt="">
                     <div class="stauts">
                         <div class="item">
                             <h4>L.<span>H.</span></h4>
                             <h6>Arbuckle</h6>
                         </div>
                         <div class="item">
-                            <h4>CTO<span>,</span></h4>
-                            <h6>since 2020</h6>
+                            <h4>CTO<span><!--, COMMA USED TO BE HERE--></span></h4>
+                            <!--<h6>since 2020</h6>-->
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 img">
+                    <img src="img/T02FNAF6Y5V-U02GD3X2JFP-ba667cf5e271-512.jpeg" alt="">
+                    <div class="stauts">
+                        <div class="item">
+                            <h4>A.<span></span></h4>
+                            <h6>Passos</h6>
+                        </div>
+                        <div class="item">
+                            <h4>Designer<span><!--, COMMA USED TO BE HERE--></span></h4>
+                            <!--<h6>since 2020</h6>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 valign md-mb50">
+                    <div class="mb-50">
+                        
+                        <!--<h3 class="fw-600 text-u ls1 mb-30 color-font">Constantly Innovating</h3>-->    
+                        <p>We've been working together since late 2019 and are now working on our first game, Star Sailors, built in the Unity game engine.</p>
+                        <!--<a href="#0" class="butn dark curve mt-30">
+                            <span>Read More</span>
+                        </a>-->
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -199,83 +315,7 @@
     <!-- ==================== End About agency ==================== -->
 
 
-    <!-- ==================== Start Works ==================== -->
-
-    <section class="work-carousel2 metro section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10">
-                    <div class="sec-head">
-                        <h6 class="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
-                        <h3 class="wow color-font">Take a look at what <br> we're working on</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 no-padding">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="content">
-                                    <div class="img">
-                                        <span class="imgio">
-                                            <div class="wow cimgio" data-delay="300"></div><img
-                                                src="https://miro.medium.com/max/1400/1*TNYFJ7II6zzX56TmafN32Q.jpeg" alt="">
-                                        </span>
-                                    </div>
-                                    <div class="cont">
-                                        <h6><a href="project-details2.html">Citizen Science</a></h6>
-                                        <h4><a href="project-details2.html">Data visualisation in games</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content">
-                                    <div class="img">
-                                        <span class="imgio">
-                                            <div class="wow cimgio" data-delay="500"></div><img
-                                                src="img/portfolio/1_nEVZyvQJNi_YJDK4QfFY5w.png" alt="">
-                                        </span>
-                                    </div>
-                                    <div class="cont">
-                                        <h6><a href="project-details2.html">Unity & Game Development</a></h6>
-                                        <h4><a href="project-details2.html">Star Sailors</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content">
-                                    <div class="img">
-                                        <span class="imgio">
-                                            <div class="wow cimgio" data-delay="700"></div><img
-                                                src="https://images.hdqwalls.com/download/owl-minimal-dark-4k-wd-2560x1440.jpg" alt="">
-                                        </span>
-                                    </div>
-                                    <div class="cont">
-                                        <h6><a href="project-details2.html">Coming soon</a></h6>
-                                        <h4><a href="project-details2.html">Full portfolio...</a></h4>
-                                    </div>
-                                </div>
-                            </div><!--Add more!!!-->
-                        </div>
-
-                        <!-- slider setting -->
-                        <div class="swiper-button-next swiper-nav-ctrl next-ctrl">
-                            <i class="ion-ios-arrow-right"></i>
-                        </div>
-                        <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl">
-                            <i class="ion-ios-arrow-left"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End Works ==================== -->
+    
 
 
 
@@ -694,7 +734,7 @@
 
 
 
-    <!-- ==================== Start call-to-action ==================== -->
+    <!-- ==================== Start call-to-action ==================== 
 
     <section class="call-action section-padding bg-img" data-background="img/patrn.svg">
         <div class="container">
@@ -717,9 +757,139 @@
 
     <!-- ==================== End call-to-action ==================== -->
 
+    <footer>
+        <div class="container">
+          <div class="row">
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                     <span class="logo"></br>Signal Kinetics </br> PTY LTD</span>
+                   </div>
+                   
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                       <ul class="menu">
+                            <span>Menu</span>    
+                            <li>
+                               <a href="http://sk.super.site/documentation">Documentation</a>
+                             </li>
+                                  
+                             <li>
+                                <a href="about.html">About</a>
+                             </li>
+                                  
+                             <li>
+                               <a href="http://driwwwle.com/gizmotronn">Driwwwle</a>
+                             </li>
+                        </ul>
+                   </div>
+              
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                     <ul class="address">
+                       <span>Contact</span>       
+                       <li>
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="#">+61 481 601 669</a>
+                       </li>
+                       <li>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                          <a href="">120 Beaufort Street, Perth</a>
+                       </li> 
+                       <li>
+                          <i class="fa fa-envelope" aria-hidden="true"></i> 
+                          <a href="mailto:liam@skinetics.tech">liam@skinetics.tech</a>
+                       </li> 
+                      </ul>
+                   </div>
+               </div> 
+           </div>
+       </footer>
 
+       <style>
+           @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
-    <!-- ==================== Start Footer ==================== -->
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-text {
+	margin-top: 50px;
+	background-color: #272d33;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+	
+.search-text .input-search {
+	height: 45px;
+	width: 40%;
+	padding-left: 20px;
+    color: #333;
+} 
+
+.search-text .btn-search {
+    background: #da3e44;
+    border: none;
+	color: #FFF;
+	height: 45px;
+    width: 80px;
+}
+
+.search-text h4 {
+    color: #FFF;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #33383c;
+    padding: 30px 0px;
+}	       
+
+.logo {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.address span, 
+.menu span {
+   color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding: 10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.address li a, 
+.menu li a {
+    color: #FFF;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.address li, 
+.menu li {
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.address li a:hover, 
+.menu li a:hover {
+    color: #da3e44;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.address .fa {
+    color: #da3e44;
+    margin-right: 10px;
+    font-size: 18px;
+}
+       </style>
+
+    <!-- ==================== Start Footer ==================== 
 
     <footer class="sub-bg">
         <div class="container">
@@ -761,7 +931,7 @@
                             <h5>Keep in touch</h5>
                         </div>
                         <ul>
-                            <li><!-- Problem here is that it won't work being deployed on Github pages. Let's store on github and deploy somewhere where a contact form can work?-->
+                            <li><!-- Problem here is that it won't work being deployed on Github pages. Let's store on github and deploy somewhere where a contact form can work?
                                 <div class="subscribe">
                                     <input type="text" placeholder="Type Your Email">
                                     <span class="subs pe-7s-paper-plane"></span>
@@ -814,7 +984,4 @@
     <script src="js/scripts.js"></script>
 
 </body>
-
-
-<!-- Mirrored from www.innovationplans.com/idesign/vie/vie-light/index5.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Sep 2021 07:41:19 GMT -->
 </html>
