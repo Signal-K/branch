@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply antialiased text-white bg-background;
+  }
+}
+
+.main-navigation {
+  @apply transition-all duration-300 inline-grid grid-cols-auto-1fr gap-x-4 items-center rounded-full border hover:border-outline border-transparent hover:bg-surface px-3 py-2 font-medium hover:text-white;
+}
+
+.prose :where(h1, h2, h3, h4, h5):not(:where([class~='not-prose'] *)) a {
+  @apply no-underline font-bold;
+}
+
+.prose :where(blockquote):not(:where([class~='not-prose'] *)) {
+  @apply text-slate-300 text-xl bg-surface rounded border-l-yellow py-1 px-6;
+}
+
+.prose :where(ol > li):not(:where([class~='not-prose'] *))::marker {
+  @apply text-salmon font-bold text-xl;
+}
+
+.youtube-mdx-embed {
+  @apply overflow-hidden rounded border border-outline;
+}
+
+.twitter-tweet-mdx-embed {
+  @apply flex justify-center my-16;
+}
+
+.twitter-tweet-mdx-embed > .twitter-tweet {
+  @apply !m-0;
+}
+
+.event-color-PushEvent {
+  @apply bg-salmon;
+}
+
+.event-color-CreateEvent {
+  @apply bg-mouve;
+}
+
+.event-color-PullRequestEvent {
+  @apply bg-teal;
+}
+
+.event-color-ForkEvent {
+  @apply bg-bogey;
+}
+
+.event-color-WatchEvent {
+  @apply bg-yellow;
+}
